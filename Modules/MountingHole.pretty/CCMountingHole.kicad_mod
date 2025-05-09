@@ -1,0 +1,124 @@
+(footprint "CCMountingHole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b1e9cd27-6dc5-4c1a-9038-518b589d48c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CCMountingHole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7034b3f5-304e-45bf-950f-f06bc1edeb66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b9d6fee-cd8b-405d-99fc-f9c4f224f7ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f442e57-e778-436c-b572-f2ee95bbb70e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac9fca96-4441-48c1-bb15-03bad56424e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -0.127 6.9596)
+		(end 2.623 6.9596)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "dbac4ca6-e2d9-411a-8fac-c3b964a9f094")
+	)
+	(fp_circle
+		(center -0.127 6.9596)
+		(end 2.873 6.9596)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f83e4160-2e37-42d9-a824-cde43e50e780")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.127 6.9596 0)
+		(layer "F.Fab")
+		(uuid "33024112-788c-42c6-b528-57206c092bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac19ff66-255f-4dfd-aecc-7cf8e14d344a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -0.127 6.9596)
+		(size 5.5 5.5)
+		(drill 3.2)
+		(layers "*.Mask")
+		(clearance 1.8)
+		(zone_connect 0)
+		(uuid "190ef6d4-d73c-4d64-a8f2-300ccee0ee19")
+	)
+)

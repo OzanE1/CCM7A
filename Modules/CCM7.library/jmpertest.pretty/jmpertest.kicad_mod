@@ -1,0 +1,124 @@
+(footprint "jmpertest"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb3ccfe2-183c-414b-af20-3026303bb4ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "jmpertest"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf9e5364-a07f-41c5-aa16-51584605585e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f3f0ae-463d-4381-835c-d4464f1cc111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9acf7b2e-3935-4ef2-9b8b-2d49e0528069")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbcfc36d-96c8-4104-aa38-c8179d8ca43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "414cc8c3-466b-41b8-9748-bd64db9da9c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.5334 0.508)
+		(size 0.3 0.3)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7f9a07fe-461a-424e-9c8e-582849025739")
+	)
+	(pad "2" smd custom
+		(at 0.381 0.508)
+		(size 0.3 0.3)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "9c78e8bf-89ef-4506-9218-0356d273ed6d")
+	)
+)
