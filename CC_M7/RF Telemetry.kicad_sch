@@ -3111,6 +3111,10 @@
 		(uuid "ffb600a6-c695-4de1-90fd-fc8250c21569")
 	)
 	(no_connect
+		(at 175.26 73.66)
+		(uuid "09f71cb0-59df-45a9-a751-0e36aaeaf0e4")
+	)
+	(no_connect
 		(at 48.26 109.22)
 		(uuid "11aedaaa-7b0b-439b-97bf-318d1b82ec0e")
 	)
@@ -3129,6 +3133,10 @@
 	(no_connect
 		(at 60.96 73.66)
 		(uuid "e0aa62b2-1fc5-44c7-b662-0beccd2a636c")
+	)
+	(no_connect
+		(at 165.1 73.66)
+		(uuid "ef95eb01-2177-4c93-a139-243a24f10555")
 	)
 	(no_connect
 		(at 104.14 86.36)
@@ -4134,15 +4142,14 @@
 		)
 		(uuid 9c9b0ea6-4eb8-454d-8546-8e1483510489)
 	)
-	(text "Kontrol Yapılacak!!!!!"
+	(text "NO USB: \nD+ : NC\nD- : NC\nDECUSB : NC\nVBUS : GND\n"
 		(exclude_from_sim no)
-		(at 71.12 139.7 0)
+		(at 22.86 134.62 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "022cfc25-faa5-47d3-9d7e-cd710b6a972d")
 	)
@@ -4221,7 +4228,7 @@
 	)
 	(text "SWDEBUG"
 		(exclude_from_sim no)
-		(at 193.04 78.74 0)
+		(at 193.04 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4275,6 +4282,28 @@
 			)
 		)
 	)
+	(global_label "3V3_RF"
+		(shape input)
+		(at 175.26 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d70f5a9-7af5-491a-96dc-ef698853b304")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.079 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DEC4"
 		(shape input)
 		(at 162.56 27.94 180)
@@ -4297,9 +4326,9 @@
 			)
 		)
 	)
-	(global_label "NRF_SWCLK"
+	(global_label "J2_40"
 		(shape input)
-		(at 170.18 68.58 180)
+		(at 165.1 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4307,9 +4336,9 @@
 			)
 			(justify right)
 		)
-		(uuid "231052a4-9c29-4e49-80bf-c4a8000f9848")
+		(uuid "196b5ab7-0794-4415-95cc-764d573cceaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3091 68.58 0)
+			(at 156.5511 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,28 +4416,6 @@
 	)
 	(global_label "NRF_NRST"
 		(shape input)
-		(at 170.18 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "30d1e828-5085-4325-8387-6f1ec7f455c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.7605 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NRF_NRST"
-		(shape input)
 		(at 48.26 114.3 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4425,6 +4432,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRF_SWCLK"
+		(shape input)
+		(at 175.26 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3871db3b-3d63-47df-8ac9-17d62d74c917")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.1309 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4447,6 +4476,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRF_SWDIO"
+		(shape input)
+		(at 175.26 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49a851af-6ded-4f55-9248-82c03f407063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.7681 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4537,6 +4588,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRF_NRST"
+		(shape input)
+		(at 175.26 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b1dc929-d8fb-4470-acd5-937a1fabf949")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.6795 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4664,50 +4737,6 @@
 		(uuid "7ecba07c-0ee0-4d22-a835-3b92613f2e42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.1361 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2_32"
-		(shape input)
-		(at 180.34 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f2dd2f3-199d-4e51-81a6-86fa099bf4fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8889 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2_31"
-		(shape input)
-		(at 180.34 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "825fc700-7d55-4a6e-ae40-5f8d834c8c74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8889 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,6 +4922,28 @@
 			)
 		)
 	)
+	(global_label "J2_31"
+		(shape input)
+		(at 165.1 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ad420a0-4aea-49b1-b1f1-8d0f1afdbd52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.5511 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRF_SPI0_MISO"
 		(shape input)
 		(at 104.14 81.28 0)
@@ -4972,28 +5023,6 @@
 		(uuid "a3c289a1-48b7-45e3-87fa-fd1be7073b9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.309 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "J2_34"
-		(shape input)
-		(at 180.34 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6631a3a-ad9c-44f6-b72b-a4dc2a9e6c22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8889 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,50 +5144,6 @@
 			)
 		)
 	)
-	(global_label "NRF_SWDIO"
-		(shape input)
-		(at 170.18 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b97e8fa2-d52e-49b6-944e-0bb260e66c55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.6719 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_RF"
-		(shape input)
-		(at 170.18 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c201c467-6f83-473d-ad54-c2d3cc106f1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.361 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NRF_SPI0_MISO"
 		(shape output)
 		(at 76.2 195.58 180)
@@ -5172,6 +5157,28 @@
 		(uuid "c413c471-9db1-4804-b8fa-6f119c7126d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.7005 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J2_32"
+		(shape input)
+		(at 165.1 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4cfb937-9a23-4eb5-9e8d-e84b50eae50a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.5511 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,24 +5232,24 @@
 			)
 		)
 	)
-	(global_label "J2_40"
+	(global_label "J2_34"
 		(shape input)
-		(at 180.34 73.66 0)
+		(at 165.1 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e754de2b-8b6e-4dd4-a0ff-65cf61f1c591")
+		(uuid "e4a8ab4d-b1f8-4f1d-984d-62e47472857f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8889 73.66 0)
+			(at 156.5511 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5921,7 +5928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -6059,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 170.18 38.1 0)
 			(effects
 				(font
@@ -6164,6 +6171,74 @@
 			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 170.18 58.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2748870d-c47c-4e32-a3f1-9d64fdabe379")
+		(property "Reference" "JP6"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d35a3c9-c8a2-431a-90cf-e0dcd2ada530")
+		)
+		(pin "1"
+			(uuid "2587c6fa-a4c7-45c8-bcb5-b17fe98292a9")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -6357,74 +6432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 175.26 63.5 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a3e46dd-35d6-4a54-a113-a53497390b86")
-		(property "Reference" "JP6"
-			(at 175.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 175.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "jmpertest:jmpertest"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c84d6a5-a3c3-40d3-bb23-53b9b8b3f273")
-		)
-		(pin "1"
-			(uuid "faddd171-f8ec-4952-b417-cc2b5f43a1a0")
-		)
-		(instances
-			(project "CC_M7"
-				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 187.96 0)
 		(unit 1)
@@ -6583,7 +6590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 33.02 0)
 			(effects
 				(font
@@ -7034,6 +7041,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 170.18 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ede31ca-399d-4fd3-b6a3-ca6329d6c2ea")
+		(property "Reference" "JP7"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "421162af-fe47-406a-b6fc-6003acfdcfe5")
+		)
+		(pin "1"
+			(uuid "accd4d85-da21-40df-947b-eeba2c7b26e8")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 170.18 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63bfb4ee-7559-49f9-a0f5-4dda947f9b32")
+		(property "Reference" "JP10"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb632f04-0fee-4174-9229-ee79d4302488")
+		)
+		(pin "1"
+			(uuid "f14fbc03-828e-41da-a116-b046899c5be3")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 170.18 73.66 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7024cec1-1a26-4463-ac13-6eb52d119b38")
+		(property "Reference" "JP9"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e8aa873-009c-4973-be0d-9284e31ea8b2")
+		)
+		(pin "1"
+			(uuid "61ab8f65-a386-4e68-b30c-71e34da4af44")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 38.1 90)
 		(unit 1)
@@ -7305,74 +7516,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 175.26 68.58 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83d9f148-cd8b-4bd1-a2f4-d2ccb413da6f")
-		(property "Reference" "JP7"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "jmpertest:jmpertest"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78700eff-5a20-4c3c-9889-6479a885a44a")
-		)
-		(pin "1"
-			(uuid "5455b7de-32f2-43b9-aba1-fa5d1638f697")
-		)
-		(instances
-			(project "CC_M7"
-				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 182.88 99.06 180)
 		(unit 1)
@@ -7400,7 +7543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -7516,74 +7659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 175.26 58.42 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91622045-e4d9-4c02-9e5e-da5d6e4ca8f8")
-		(property "Reference" "JP5"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "jmpertest:jmpertest"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "171c928e-90f3-4859-842c-f47ae200d5e7")
-		)
-		(pin "1"
-			(uuid "4148bf99-c5ec-4313-b05a-3765b193d657")
-		)
-		(instances
-			(project "CC_M7"
-				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 99.06 0)
 		(unit 1)
@@ -7649,74 +7724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 175.26 73.66 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "985d4400-8021-4b2c-942f-cf563ff095ae")
-		(property "Reference" "JP8"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "jmpertest:jmpertest"
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e680a72b-194b-49e1-affd-a429a0c52a6c")
-		)
-		(pin "1"
-			(uuid "328adeed-27c9-4fa3-abd9-c0036435e291")
-		)
-		(instances
-			(project "CC_M7"
-				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 142.24 182.88 0)
 		(unit 1)
@@ -7744,7 +7751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 182.88 0)
 			(effects
 				(font
@@ -7813,7 +7820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.8 33.02 0)
 			(effects
 				(font
@@ -7917,6 +7924,74 @@
 			(project ""
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 170.18 68.58 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9dd1196-a1aa-4445-88aa-e11379b2aa1a")
+		(property "Reference" "JP8"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfab33a6-1688-4418-b14a-31c9072e7620")
+		)
+		(pin "1"
+			(uuid "03afefd2-7f8c-44f4-90e0-8213592a8bfb")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/7ffac293-9e03-4b17-b08e-2a6334cbc734"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -8081,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 38.1 0)
 			(effects
 				(font
@@ -8715,7 +8790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127 182.88 0)
 			(effects
 				(font
@@ -8848,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 27.94 0)
 			(effects
 				(font
@@ -8984,7 +9059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 99.06 0)
 			(effects
 				(font

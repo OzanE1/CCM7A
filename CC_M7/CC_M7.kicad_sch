@@ -142,7 +142,7 @@
 		)
 		(uuid "34b5dcca-8b9b-4691-ae9d-1a39e9464a73")
 	)
-	(text "STM32H743VIT6 Pins Connections\nVoltage Read\nFilters\nStm32h743 Requirments"
+	(text "STM32H743VGT6 Pins Connections\nVoltage Read\nFilters\nStm32h743 Requirments"
 		(exclude_from_sim no)
 		(at 29.972 25.4 0)
 		(effects
