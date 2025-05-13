@@ -8533,7 +8533,7 @@
 			(uuid "b9f35675-922b-489f-87d2-caa538feeec5")
 		)
 		(instances
-			(project ""
+			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/07f6f905-59c0-438f-a556-b28e89ace803"
 					(reference "U1")
 					(unit 1)
