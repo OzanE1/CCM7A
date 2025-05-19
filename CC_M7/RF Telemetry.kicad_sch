@@ -6745,7 +6745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 168.91 132.08 0)
 			(effects
 				(font
@@ -7357,7 +7357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 168.91 124.46 0)
 			(effects
 				(font
@@ -7552,7 +7552,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16pF"
+		(property "Value" "8pF"
 			(at 185.42 100.3235 0)
 			(effects
 				(font
@@ -9068,7 +9068,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16pF"
+		(property "Value" "8pF"
 			(at 154.94 100.33 0)
 			(effects
 				(font
