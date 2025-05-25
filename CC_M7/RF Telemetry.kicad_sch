@@ -5567,6 +5567,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2f6ec0e-d2a5-4a00-a937-13e4a2867df0")
 		)
@@ -5825,6 +5834,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 154.94 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G1"
 			(uuid "9ceb5781-c5a7-483e-bd47-6545074478f5")
 		)
@@ -5904,6 +5922,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "553c80a5-ca18-4e2a-b860-d18a0ad5e466")
 		)
@@ -5965,6 +5992,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -6043,6 +6079,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 177.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4a56c71-9957-45c2-961b-9599093bb1ae")
 		)
@@ -6103,6 +6148,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 170.18 38.1 0)
 			(effects
 				(font
@@ -6179,6 +6233,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 170.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "572d2b3a-189c-4466-8069-70a65479bac1")
 		)
@@ -6239,6 +6302,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -6309,6 +6381,15 @@
 			)
 		)
 		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4 SoC, QFN-40"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 76.2 99.06 0)
 			(effects
 				(font
@@ -6635,6 +6716,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7625efc-f985-40dd-ac4f-d4b0e1a0fbfc")
 		)
@@ -6764,6 +6854,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 168.91 132.08 0)
 			(effects
 				(font
@@ -6908,6 +7007,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "747665ed-5700-4bb0-b2d4-742fc4d88bed")
 		)
@@ -7043,6 +7151,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4171b2c2-7a1d-4c22-a85b-dcf96b1db13f")
 		)
@@ -7103,6 +7220,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 170.18 63.5 0)
 			(effects
 				(font
@@ -7179,6 +7305,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb632f04-0fee-4174-9229-ee79d4302488")
 		)
@@ -7239,6 +7374,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 170.18 73.66 0)
 			(effects
 				(font
@@ -7384,6 +7528,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b80a483-841f-4de2-84ea-7a8d0c3992a4")
 		)
@@ -7444,6 +7597,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 132.08 177.8 0)
 			(effects
 				(font
@@ -7588,6 +7750,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e55d28e-a507-4bfa-be12-73a740f94dd6")
 		)
@@ -7647,6 +7818,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 172.72 91.44 0)
 			(effects
 				(font
@@ -7796,6 +7976,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 142.24 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d800b08-7f65-444f-aee7-d9cf859512dc")
 		)
@@ -7857,6 +8046,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 50.8 33.02 0)
 			(effects
 				(font
@@ -7932,6 +8130,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59a65545-3338-47eb-89d6-e0654d1d9615")
 		)
@@ -7992,6 +8199,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -8134,6 +8350,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "810d626d-bbf8-436c-be97-7263976751f6")
 		)
@@ -8193,6 +8418,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 134.62 38.1 0)
 			(effects
 				(font
@@ -8720,6 +8954,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 93.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "777193d8-8b09-4ce7-abbf-20cebffe2e69")
 		)
@@ -8827,6 +9070,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 127 182.88 0)
 			(effects
 				(font
@@ -8960,6 +9212,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 134.62 27.94 0)
 			(effects
 				(font
@@ -9104,6 +9365,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d14612a1-be20-4986-aa36-c6fa589bbfac")
 		)
@@ -9164,6 +9434,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 121.92 177.8 0)
 			(effects
 				(font

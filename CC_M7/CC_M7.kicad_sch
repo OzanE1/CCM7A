@@ -223,6 +223,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
@@ -279,6 +288,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -351,6 +369,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
@@ -407,6 +434,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -479,6 +515,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
@@ -535,6 +580,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 157.48 25.4 0)
 			(effects
 				(font

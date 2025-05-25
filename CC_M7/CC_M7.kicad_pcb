@@ -16133,7 +16133,7 @@
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L7"
-			(at 0 -1.05 360)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b02dc58d-21ad-4c38-9940-c84141776ba6")
@@ -16145,7 +16145,7 @@
 			)
 		)
 		(property "Value" "3.0nH"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "24873ff1-5bbe-4b72-bfe4-c9d210c4de1d")
 			(effects
@@ -16280,7 +16280,7 @@
 			(uuid "3657a1e8-d042-4820-9ac4-9fc71bcb7377")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 360)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "052dba7c-675a-4546-b78c-e8ae7b620a0c")
 			(effects

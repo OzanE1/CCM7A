@@ -4490,6 +4490,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed1752c6-3fae-4497-887f-e1d70ef79a5a")
 		)
@@ -4617,6 +4626,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -4892,6 +4910,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14d8e9ca-f8bc-4ffd-a4c9-16089f2d976c")
 		)
@@ -5140,6 +5167,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3c1029d6-c2de-4ee0-920c-3a4b8dd4d15c")
 		)
@@ -5269,6 +5305,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -5677,6 +5722,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c59e5f47-6bab-4dec-ab78-c085e65d3347")
 		)
@@ -6021,6 +6075,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "851ed090-54e1-43c7-8fc8-37ab754d681d")
 		)
@@ -6289,6 +6352,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6c241189-e7ce-454b-b852-b44902715a14")
 		)
@@ -6418,6 +6490,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 142.24 157.48 0)
 			(effects
 				(font
@@ -6830,6 +6911,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "599dfa90-9410-4543-99bb-248f067532e7")
 		)
@@ -6893,6 +6983,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 53.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -6967,6 +7066,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 142.24 114.3 0)
 			(effects
 				(font
