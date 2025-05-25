@@ -4948,6 +4948,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 139.7) (xy 88.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11929806-b8eb-4bac-96bb-96d0489dac22")
+	)
+	(wire
+		(pts
 			(xy 170.18 101.6) (xy 170.18 109.22)
 		)
 		(stroke
@@ -6108,6 +6118,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 142.24) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2b2bfa-3a0b-4edc-9a72-0635d306071d")
+	)
+	(wire
+		(pts
 			(xy 96.52 38.1) (xy 83.82 38.1)
 		)
 		(stroke
@@ -6806,28 +6826,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DM"
-		(shape input)
-		(at 88.9 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26c00634-41a9-4cdf-850b-c00c2a9502d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3842 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7580,6 +7578,28 @@
 			)
 		)
 	)
+	(global_label "USB_DN"
+		(shape input)
+		(at 106.68 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5107264-5b1a-44d4-861b-88932cd59812")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.0433 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PE2"
 		(shape input)
 		(at 45.72 139.7 180)
@@ -7802,7 +7822,7 @@
 	)
 	(global_label "USB_DP"
 		(shape input)
-		(at 88.9 142.24 0)
+		(at 106.68 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7812,7 +7832,7 @@
 		)
 		(uuid "d77950ce-de11-472f-a333-160c18ed99aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2028 142.24 0)
+			(at 116.9828 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
